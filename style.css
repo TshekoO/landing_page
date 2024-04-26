@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Poppins',sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+#header{
+    width: 100%;
+    height:100vh;
+    background-size: cover;
+    background: #1F2937;
+}
+#sidemenu{
+    color:#E5E7EB;
+    font-size:18px;
+}
+.container{
+    padding:10px 10%;
+   
+}
+nav{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul li{
+    display:inline-block;
+    list-style:none;
+    margin:10px 10px;
+}
+.header-text{
+    color:#F9FAF8;
+    font-size: 48px;
+   
+
+}
+.header-text2{
+    color:#E5E7EB;
+    font-size: 24px;;
+ 
+}
+.btn{
+    position: absolute;
+    display:block;
+    margin:50px auto;
+    width:fit-content;
+    border:1 px solid;
+    padding:14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color:#fff;
+    background: #3882F6;
+    
+}
+.image {
+    position: absolute;
+   flex: 1;
+    text-align: right;
+   right:110px;
+   bottom: 180px;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-top: -60dvh;
+    
+}
+/*----------About-------*/
+.container3{
+    max-width: 920px;
+    
+  }
+.sub-title{
+    padding:58px 0;
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+    align-items: center;
+}
+.sub-title h1{
+    font-size: 36px;
+    margin:0;
+    font-weight: bold;
+}
+
+.text{
+  
+    max-width: 200px;
+    text-align: center;
+}
+.item{
+    width:200px;
+    height:200px;
+    border: 4px solid #3882F6;
+    border-radius: 20px  20px;
+    
+}
+.info{
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+}
+
+/*----------Quote-------*/
+#Quote{
+    background: #E5E7EB;
+}
+.AI{
+    color: #1F2937;
+    font-size: 36px light italic;
+}
+/*----------Sign Up-------*/
+
+.SignUp{
+  margin-top:70px;
+  margin-bottom:70px;
+  margin-left:170px;
+  margin-right:170px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.Up{
+    background-color: #3882F6;
+    display: flex;
+    gap:100px;
+    padding:15px 150px;
+    border-radius: 8px;
+    color: #fff;
+}
+.inner-text #one{
+  font-size:18px;
+  font-weight: 600; 
+  margin-bottom:0; 
+
+}
+.inner-text #two{
+    margin-top:0;
+    font-size:16px;
+    font-weight: 300;
+}
+#btn2{
+    margin:40px auto;
+    font-size: 16px;
+    font-weight: 600;
+    padding:14px 50px;
+    outline: 10px #E5E7EB;
+    border-radius: 6px;
+    text-decoration: none;
+    color:#fff;
+    background: #3882F6;
+    align-self: center;
+}
+/*----------Copyright-------*/
+#Copyright{
+   background: #1F2937; 
+   padding:25px ;
+}
+.more{
+    color: #E5E7EB;
+}
